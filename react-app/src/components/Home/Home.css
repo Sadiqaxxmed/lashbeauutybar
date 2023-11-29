@@ -1,5 +1,5 @@
 .HP-Main-Div {
-    height: 100vh;
+    height: fit-content;
     width: 60vw;
     margin-left: 20%;
     margin-right: 20%;
@@ -25,9 +25,14 @@
     display: inline-flex;
     justify-content: center;
     margin-top: 6%;
-    gap: 15%;
+    gap: 5%;
     height: 30%;
     width: 100%;
+}
+
+.HP-Logo-Img {
+    height: 30%;
+    width: 30%;
 }
 
 .HP-Contact-Div {
@@ -73,4 +78,49 @@
     justify-content: center;
     width: 100%;
     margin-top: 2%;
+}
+
+.HP-Prepare-Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.HP-Ready-Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.HP-LashGirls-Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.HP-ChooseService-Div {
+    display: flex;
+    width: fit-content;
+    margin-top: 10%;
+}   
+
+.HP-ChooseService-Img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.HP-VolFull-Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 23%;
+    gap: 20px;
 }
